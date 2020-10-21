@@ -14,9 +14,9 @@ body {
 div#interface {
     width: 900px;
     background-color: #ffffff;
-    margin: -20px auto 0px auto;
+    margin: -20px auto 10px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
-    padding: 10px;
+    padding: 15px;
 }
 
 p {
@@ -96,6 +96,10 @@ figure.foto-legenda:hover figcaption {
 
 /*formatação do menu*/
 
+nav#menu {
+    display: block;
+}
+
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
@@ -151,7 +155,7 @@ article#noticia-principal h2 {
     font-size: 12pt;
     color: #606060;
     background-color: #dddddd;
-    padding: 5px 0px 5px 0px;
+    padding: 5px;
     margin: 10px 0px 10px 0px;
 }
 
@@ -190,7 +194,7 @@ table#tabelaspec td {
     border: 1px solid #606060;
     padding: 10px;
     text-align: center;
-    vertical-align: 0middle;
+    vertical-align: middle;
 }
 
 table#tabelaspec td.ce {
@@ -249,4 +253,51 @@ footer#rodape {
 
 footer#rodape p {
     text-align: center;
+}
+
+footer#rodape a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer#rodape a:hover {
+    color: blue;
+}
+
+video#filme {
+    display: block;
+    position: relative;
+    width: 350px;
+}
+
+video#filme1 {
+    display: block;
+    position: relative;
+    width: 500px;
+    padding: 10px 0px 10px 0px;
+    margin-top: -15px;
+}
+
+iframe#lateral {
+    display: block;
+    width: 370px;
+    float: right;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+iframe#lateral1 {
+    display: block;
+    width: 370px;
+    float: right;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+iframe#lateral2 {
+    display: block;
+    width: 370px;
+    float: right;
+    padding: 0px;
+    margin-top: 10px;
 }
